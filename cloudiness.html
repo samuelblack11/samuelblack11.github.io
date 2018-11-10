@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cloudiness</title>
+
+		  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body class = 'bg-secondary'>
+
+	<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand bg-info" href="main_page.html">Latitude</a>
+     </div>
+     
+    <ul class="nav navbar-nav navbar-right">   
+
+      <li class="dropdown collapse"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+      <li><a href="max_temp.html">Max Temperature</a></li>
+      <li><a href="humidity.html">Humidity</a></li>
+      <li><a href="cloudiness.html">Cloudiness</a></li>
+      <li><a href="wind_speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+
+     <li><a href="weather_data.html">Data</a></li>
+     <li><a href="comparisons.html">Comparisons</a></li>
+
+
+    </ul>
+
+
+</nav>
+
+	<div class="row bg-secondary ">
+  <div class="col-md-6 panel panel-default bg-secondary max_temp_viz">
+  <h1 class = 'text-info'> Cloudiness <font size = '12' ></font></h1>
+ 	  <img src="Fig3.png" alt="..."  class="pull-left img-responsive" align = "left" style = "float:left text-align: center"></img></img>
+ 	  <br>
+  	<p style ="font-size: 120%; font-family:courier;"> There appears to be a minimal correlation between latitude and cloudiness, as there are many cities across varying latitudes with the same amountof cloudiness.
+    </p>
+  	<br>
+
+
+  </div>
+
+
+  <div class="col-md-5 panel panel-default max_temp_viz">
+  	<h1 class = 'text-info'> Visualizations <font size = '10'></font></h1>
+  	<a href="max_temp.html" class ="...">
+  		<div class = "caption">
+         </div>
+ <img src="Fig1.png" alt="..." width = "250" height = "200" class="pull-left" align = "left" style = "float:left"></img></img>
+
+</a>
+
+  	<a href="humidity.html" class ="...">
+  		<div class = "caption">
+         </div>
+ <img src="Fig2.png" alt="..." width = "250" height = "200" class="pull-left" align = "left" style = "float:left"></img></img>
+
+</a>
+
+  	<a href="cloudiness.html" class ="...">
+  		<div class = "caption">
+         </div>
+ <img src="Fig3.png" alt="..." width = "250" height = "200" class="pull-left" align = "left" style = "float:left"></img></img>
+
+</a>
+
+  	<a href="wind_speed.html" class ="...">
+  		<div class = "caption">
+         </div>
+ <img src="Fig4.png" alt="..." width = "250" height = "200" class="pull-left" align = "left" style = "float:left"></img></img>
+
+</a>
+
+</div>
+
+</div>
+
+
+<style>
+
+viz_div{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.px-2 {
+  padding-right: ($spacer * .5) !important;
+}
+
+.max_temp_viz {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    background-color: whitesmoke;
+}
+
+</style>
+
+</body>
+</html>

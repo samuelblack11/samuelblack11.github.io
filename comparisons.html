@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+  	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+
+  </script>
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand bg-info" href="main_page.html">Latitude</a>
+     </div>
+     
+    <ul class="nav navbar-nav navbar-right">   
+
+      <li class="dropdown collapse"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+      <li><a href="max_temp.html">Max Temperature</a></li>
+      <li><a href="humidity.html">Humidity</a></li>
+      <li><a href="cloudiness.html">Cloudiness</a></li>
+      <li><a href="wind_speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+
+     <li><a href="weather_data.html">Data</a></li>
+     <li><a href="comparisons.html">Comparisons</a></li>
+
+
+    </ul>
+
+
+</nav>
+
+
+	  <div class="container bg-dark summ_bg">
+  	<h1 class = 'text-info' style="font-size:250%; font-family:courier;"> Comparison: Latitude vs X </h1>
+  	<h2 class = 'text-info' style="font-size:100%; font-family:courier;"> Click any plot to get an in depth analysis </h2>
+
+
+  	<div class = "row">
+  		<div class = "col-sm-5 summ_bg_2">
+  		<p class ="" style ="font-size: 90%; font-family:courier;"> vs. Max Temperature </p>
+        <a href="max_temp.html">
+ <img src="Fig1.png" alt="..." width = "400" height = "400" class="pull-left" align = "bottom" style = "float:center"></img></img>
+</a>
+</div>
+
+
+  		<div class = "col-sm-5 summ_bg_2">
+  			<p class ="" style ="font-size: 90%; font-family:courier;"> vs. Humidity </p>
+           	<a href="humidity.html" class ="...">
+ <img src="Fig2.png" alt="..." width = "400" height = "400" class="pull-left" align = "left" style = "float:left"></img></img>
+</a>
+</div>
+
+
+  		<div class = "caption col-sm-5">
+  			<p class ="" style ="font-size: 90%; font-family:courier;"> vs. Cloudiness </p>
+           	<a href="cloudiness.html" class ="...">
+
+ <img src="Fig3.png" alt="..." width = "400" height = "400" class="pull-left" align = "left" style = "float:left"></img></img>
+ </a>
+</div>
+
+
+  	
+  		<div class = "caption col-sm-5">
+  			<p class ="" style ="font-size: 90%; font-family:courier;"> vs. Wind Speed </p>
+      <a href="wind_speed.html" class ="...">   
+ <img src="Fig4.png" alt="..." width = "400" height = "400" class="pull-left" align = "left" style = "float:left"></img></img>
+</a>
+</div>
+
+<style>
+
+.summ_bg{
+
+	background-color: whitesmoke;
+}
+
+.summ_bg_2{
+    margin-bottom: 15px;
+}
+</style>
+</body>
+</html>
